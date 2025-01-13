@@ -178,7 +178,7 @@ if __name__ == "__main__":
     
     #Plot output
     n = len(Af)
-    continued_x_data = np.arange(x_data[-1] + step_size, x_data[-1] + (n) * step_size, step_size)
+    continued_x_data = np.arange(x_data[-1] + step_size, x_data[-1] + n * step_size, step_size)
     
     plt.figure(0)
     plt.plot(x_data,y_data,'k',label='Input Data')
